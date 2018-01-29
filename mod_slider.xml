@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" client="site" type="module" method="upgrade">
+    <name>Slider</name>
+    <author>Sam_roksta</author>
+    <creationDate>January 2018</creationDate>
+    <copyright>Copyright (C) 2018 Sam_roksta. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>roksta21@gmail.com</authorEmail>
+    <authorUrl>http://localnet.co.ke/</authorUrl>
+<version>1.0.0</version>
+    <description>Simple Slider</description>
+    <files>
+        <filename module="mod_slider">mod_slider.php</filename>
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+    </files>
+   <updateservers></updateservers>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="spacer1" type="spacer" class="text" label="&lt;strong&gt;Set Slider Options&lt;/strong&gt;"/>
+                <field name="slide_1" type="media" label="Upload slider image 1 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_1" type="textarea" filter="safehtml" label="Caption slide 1" description="Caption content 1" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_2" hr="true" />
+                <field name="slide_2" type="media" label="Upload slider image 2 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_2" type="textarea" filter="safehtml" label="Caption slide 2" description="Caption content 2" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_3" hr="true" />
+                <field name="slide_3" type="media" label="Upload slider image 3 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_3" type="textarea" filter="safehtml" label="Caption slide 3" description="Caption content 3" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_4" hr="true" />
+                <field name="slide_4" type="media" label="Upload slider image 4 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_4" type="textarea" filter="safehtml" label="Caption slide 4" description="Caption content 4" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_5" hr="true" />
+                <field name="slide_5" type="media" label="Upload slider image 5 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_5" type="textarea" filter="safehtml" label="Caption slide 5" description="Caption content 5" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_6" hr="true" />
+                <field name="slide_6" type="media" label="Upload slider image 6 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_6" type="textarea" filter="safehtml" label="Caption slide 6" description="Caption content 6" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_7" hr="true" />
+                <field name="slide_7" type="media" label="Upload slider image 7 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_7" type="textarea" filter="safehtml" label="Caption slide 7" description="Caption content 7" rows="4" cols="60" />
+
+                <field type="spacer" name="spacer_8" hr="true" />
+                <field name="slide_8" type="media" label="Upload slider image 8 (size must be 980px × 350px)" description="select an image" />
+                <field name="caption_8" type="textarea" filter="safehtml" label="Caption slide 8" description="Caption content 8" rows="4" cols="60" />
+            </fieldset>
+        </fields>
+    </config>     
+</extension>
